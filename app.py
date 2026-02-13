@@ -19,7 +19,7 @@ from typing import Dict, Optional
 from aiohttp_socks import ProxyConnector, ProxyType
 
 # 配置
-PORT = int(os.environ.get('PORT', 8000))
+PORT = int(os.environ.get('PORT', 7860))
 DB_PATH = os.environ.get('DB_PATH', 'monitor.db')
 
 # 日志配置
